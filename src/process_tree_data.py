@@ -4,7 +4,7 @@ from scipy.special import expit
 from sklearn.decomposition import PCA
 
 flags = tf.app.flags
-flags.DEFINE_string('output_data_file_name', 'processed_data2.npz', 'Output data file name')
+flags.DEFINE_string('output_data_file_name', 'processed_data.npz', 'Output data file name')
 flags.DEFINE_integer('N', 10000, 'Number of vertices')
 flags.DEFINE_integer('M', 1000, 'Dimensionality of the data')
 flags.DEFINE_integer('latent_dim', 100, 'Latent dimensionality of model')
